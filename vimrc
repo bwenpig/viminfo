@@ -48,7 +48,7 @@ let mapleader=","
 
 colorscheme molokai
 
-highlight Search term=reverse ctermfg=20 ctermbg=226 gui=bold guifg=Black guibg=Yellow
+highlight Search term=reverse ctermfg=Black ctermbg=226 gui=bold guifg=Black guibg=Yellow
 
 "hi default ShowMarksHLl ctermfg=darkblue ctermbg=blue cterm=bold guifg=blue guibg=lightblue gui=bold
 "hi default ShowMarksHLu ctermfg=darkblue ctermbg=blue cterm=bold guifg=blue guibg=lightblue gui=bold
@@ -140,7 +140,8 @@ let g:doxygen_enhanced_color=1
 nmap <F3> :if IsWinManagerVisible() <BAR> WMToggle<CR> <BAR> else <BAR> WMToggle<CR>:q<CR> endif <CR><CR>
 nmap <leader>do :Dox <CR><CR>
 nmap <leader>da :DoxAuthor 
-nmap <F1> :tabn <CR><CR>Lnmap <F2> :tabp <CR><CR>
+nmap <F1> :tabn <CR><CR>
+nmap <F2> :tabp <CR><CR>
 nmap <F12> :!ctags -R --c++-kinds=+p --fields=+iaS --extra=+q . <CR><CR>
 
 "函数

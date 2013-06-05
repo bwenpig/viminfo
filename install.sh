@@ -1,5 +1,7 @@
 #!/bin/bash 
 rm -rf ~/.vim
 cp -r ../viminfo ~/.vim
-cp vimrc ~/.vimrc
+
+rm ~/.vimrc
+ln -sn ~/.vim/vimrc ~/.vimrc
 
