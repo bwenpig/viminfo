@@ -26,7 +26,17 @@ set helplang=cn
 
 set backspace=indent,eol,start
 
+set foldenable
+
+set foldmethod=indent
+
+set foldlevelstart=99
+
+setlocal foldlevel=1
+
 set bg=dark
+
+set sessionoptions+=resize
 
 set autochdir
 
@@ -43,6 +53,8 @@ set fileencodings=utf-8,cp936,big5,gb2312,gbk,latin1
 set hlsearch
 
 set ambiwidth=double
+
+set laststatus=2
 
 let mapleader=","
 
@@ -90,6 +102,10 @@ Bundle 'Lokaltog/vim-powerline'
 Bundle 'YankRing.vim'
 
 Bundle 'ShowMarks'
+
+Bundle 'rizzatti/funcoo.vim'
+
+Bundle 'rizzatti/dash.vim'
 
 "Bundle 'minibufexpl.vim'
 
@@ -154,4 +170,6 @@ function! NERDTree_IsValid()
 	return 1
 endfunction
 
+"powerline
+let g:Powerline_sysmbols = 'fancy'
 
