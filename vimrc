@@ -46,7 +46,8 @@ set ambiwidth=double
 
 let mapleader=","
 
-colorscheme molokai
+"colorscheme molokai
+colorscheme solarized
 
 highlight Search term=reverse ctermfg=Black ctermbg=226 gui=bold guifg=Black guibg=Yellow
 
